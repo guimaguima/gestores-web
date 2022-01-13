@@ -34,34 +34,34 @@ public class ServletAtendentes extends HttpServlet {
         try ( PrintWriter out = response.getWriter()) {
             /* TODO output your page here. You may use following sample code. */
             String adminpsw = request.getParameter("adminpsw"); 
-            String inputNomeAtendenteCadastrar = request.getParameter("inputNomeAtendenteCadastrar");
-            String inputEmailAtendenteCadastrar = request.getParameter("inputEmailAtendenteCadastrar");
-            String inputSenhaAtendenteCadastrar = request.getParameter("inputSenhaAtendenteCadastrar");
-            String inputIdentAtendenteHabilitar = request.getParameter("inputIdentAtendenteHabilitar");
-            String inputEmailAtendenteHabilitar = request.getParameter("inputEmailAtendenteHabilitar");
-            String inputIdentAtendenteEditar = request.getParameter("inputIdentAtendenteEditar");
-            String inputEmailAtendenteEditar = request.getParameter("inputEmailAtendenteEditar");
-            String inputIdentAtendenteEditConfir = request.getParameter("inputIdentAtendenteEditConfir");
-            String inputEmailAtendenteEditConfir = request.getParameter("inputEmailAtendenteEditConfir");
-            String inputNascAtendenteEditConfir = request.getParameter("inputNascAtendenteEditConfir");
-            String inputAfiliAtendenteEditConfir = request.getParameter("inputAfiliAtendenteEditConfir");
-            String inputIdentAtendenteDesativar = request.getParameter("inputIdentAtendenteDesativar");
-            String inputEmailAtendenteDesativar = request.getParameter("inputEmailAtendenteDesativar");
+            String inputNomeGerenteCadastrar = request.getParameter("inputNomeGerenteCadastrar");
+            String inputEmailGerenteCadastrar = request.getParameter("inputEmailGerenteCadastrar");
+            String inputSenhaGerenteCadastrar = request.getParameter("inputSenhaGerenteCadastrar");
+            String inputIdentGerenteHabilitar = request.getParameter("inputIdentGerenteHabilitar");
+            String inputEmailGerenteHabilitar = request.getParameter("inputEmailGerenteHabilitar");
+            String inputIdentGerenteEditar = request.getParameter("inputIdentGerenteEditar");
+            String inputEmailGerenteEditar = request.getParameter("inputEmailGerenteEditar");
+            String inputIdentGerenteEditConfir = request.getParameter("inputIdentGerenteEditConfir");
+            String inputEmailGerenteEditConfir = request.getParameter("inputEmailGerenteEditConfir");
+            String inputNascGerenteEditConfir = request.getParameter("inputNascGerenteEditConfir");
+            String inputAfiliGerenteEditConfir = request.getParameter("inputAfiliGerenteEditConfir");
+            String inputIdentGerenteDesativar = request.getParameter("inputIdentGerenteDesativar");
+            String inputEmailGerenteDesativar = request.getParameter("inputEmailGerenteDesativar");
             
             request.setAttribute("adminpsw", adminpsw);
-            request.setAttribute("inputNomeAtendenteCadastrar", inputNomeAtendenteCadastrar);
-            request.setAttribute("inputEmailAtendenteCadastrar", inputEmailAtendenteCadastrar);
-            request.setAttribute("inputSenhaAtendenteCadastrar", inputSenhaAtendenteCadastrar);
-            request.setAttribute("inputIdentAtendenteHabilitar", inputIdentAtendenteHabilitar);
-            request.setAttribute("inputEmailAtendenteHabilitar", inputEmailAtendenteHabilitar);
-            request.setAttribute("inputIdentAtendenteEditar", inputIdentAtendenteEditar);
-            request.setAttribute("inputEmailAtendenteEditar", inputEmailAtendenteEditar);
-            request.setAttribute("inputIdentAtendenteEditConfir", inputIdentAtendenteEditConfir);
-            request.setAttribute("inputEmailAtendenteEditConfir", inputEmailAtendenteEditConfir);
-            request.setAttribute("inputNascAtendenteEditConfir", inputNascAtendenteEditConfir);
-            request.setAttribute("inputAfiliAtendenteEditConfir", inputAfiliAtendenteEditConfir);
-            request.setAttribute("inputIdentAtendenteDesativar", inputIdentAtendenteDesativar);
-            request.setAttribute("inputEmailAtendenteDesativar", inputEmailAtendenteDesativar);
+            request.setAttribute("inputNomeGerenteCadastrar", inputNomeGerenteCadastrar);
+            request.setAttribute("inputEmailGerenteCadastrar", inputEmailGerenteCadastrar);
+            request.setAttribute("inputSenhaGerenteCadastrar", inputSenhaGerenteCadastrar);
+            request.setAttribute("inputIdentGerenteHabilitar", inputIdentGerenteHabilitar);
+            request.setAttribute("inputEmailGerenteHabilitar", inputEmailGerenteHabilitar);
+            request.setAttribute("inputIdentGerenteEditar", inputIdentGerenteEditar);
+            request.setAttribute("inputEmailGerenteEditar", inputEmailGerenteEditar);
+            request.setAttribute("inputIdentGerenteEditConfir", inputIdentGerenteEditConfir);
+            request.setAttribute("inputEmailGerenteEditConfir", inputEmailGerenteEditConfir);
+            request.setAttribute("inputNascGerenteEditConfir", inputNascGerenteEditConfir);
+            request.setAttribute("inputAfiliGerenteEditConfir", inputAfiliGerenteEditConfir);
+            request.setAttribute("inputIdentGerenteDesativar", inputIdentGerenteDesativar);
+            request.setAttribute("inputEmailGerenteDesativar", inputEmailGerenteDesativar);
             
             
             //Teste pega variavel
